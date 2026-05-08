@@ -1185,3 +1185,25 @@ textarea.custom-input {
   line-height: 1.6;
 }
 
+/* Workshop Card */
+.workshop-card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0;
+}
+
+/* Workshop Icon */
+.workshop-icon {
+  background: linear-gradient(
+    135deg,
+    #f1f5f9,
+    #e2e8f0
+  );
+
+  color: #0f172a;
+}
+
+/* LIVE EVENTS badge */
+.workshop-card .ai-badge {
+  background: #0f172a;
+  color: white;
+}

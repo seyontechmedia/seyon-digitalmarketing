@@ -1,10 +1,10 @@
 import {
   BookOpen,
-  MonitorPlay,
   BrainCircuit,
+  Presentation,
   CheckCircle2,
-  BadgeCheck,
   Sparkles,
+  BadgeIndianRupee,
 } from "lucide-react";
 
 const Pricing = () => {
@@ -27,10 +27,10 @@ const Pricing = () => {
           </h2>
 
           <p className="text-muted mt-3">
-            Affordable pricing plans designed
-            for students, freelancers,
-            entrepreneurs and professionals
-            who want to master digital marketing.
+            Affordable pricing plans for
+            students, freelancers and
+            business owners who want to
+            master digital marketing.
           </p>
 
         </div>
@@ -105,7 +105,7 @@ const Pricing = () => {
             </div>
           </div>
 
-          {/* Professional Plan */}
+          {/* AI Digitla Marketing */}
           <div className="col-lg-4 col-md-6">
 
             <div className="pricing-card premium shadow-lg h-100">
@@ -117,81 +117,12 @@ const Pricing = () => {
 
               {/* Icon */}
               <div className="pricing-icon premium-icon">
-                <MonitorPlay size={34} />
-              </div>
-
-              {/* Plan */}
-              <h3 className="fw-bold mt-4">
-                Professional Program
-              </h3>
-
-              <p className="text-muted">
-                Best for practical learning &
-                placements
-              </p>
-
-              {/* Price */}
-              <h1 className="pricing-price">
-                ₹24,999
-              </h1>
-
-              <p className="text-muted">
-                Includes live projects
-              </p>
-
-              {/* Features */}
-              <ul className="pricing-features list-unstyled mt-4">
-
-                <li>
-                  <BadgeCheck size={18} />
-                  Live Interactive Classes
-                </li>
-
-                <li>
-                  <BadgeCheck size={18} />
-                  Real-Time Projects
-                </li>
-
-                <li>
-                  <BadgeCheck size={18} />
-                  Placement Assistance
-                </li>
-
-                <li>
-                  <BadgeCheck size={18} />
-                  Workshop Access
-                </li>
-
-                <li>
-                  <BadgeCheck size={18} />
-                  Premium Certification
-                </li>
-
-              </ul>
-
-              {/* Button */}
-              <button className="btn btn-primary w-100 mt-4 pricing-btn">
-                Join Program
-              </button>
-
-            </div>
-          </div>
-
-          {/* AI Marketing Bootcamp */}
-          <div className="col-lg-4 col-md-6">
-
-            <div className="pricing-card ai-card shadow-sm h-100">
-
-              {/* Badge */}
-
-              {/* Icon */}
-              <div className="pricing-icon ai-icon">
                 <BrainCircuit size={34} />
               </div>
 
               {/* Plan */}
               <h3 className="fw-bold mt-4">
-                AI Powered Digital Marketing
+                AI Powered Digital Marketing Course
               </h3>
 
               <p className="text-muted">
@@ -223,7 +154,7 @@ const Pricing = () => {
 
                 <li>
                   <Sparkles size={18} />
-                  AI Automation Workflows
+                  WhatsApp Automation
                 </li>
 
                 <li>
@@ -233,14 +164,86 @@ const Pricing = () => {
 
                 <li>
                   <Sparkles size={18} />
-                  Mentorship + Internship
+                  Internship Support
                 </li>
 
               </ul>
 
               {/* Button */}
-              <button className="btn btn-dark w-100 mt-4 pricing-btn">
-                Enroll Now
+              <button className="btn btn-primary w-100 mt-4 pricing-btn">
+                Join Course
+              </button>
+
+            </div>
+          </div>
+
+          {/* Workshops */}
+          <div className="col-lg-4 col-md-6">
+
+            <div className="pricing-card workshop-card shadow-sm h-100">
+
+              {/* Badge */}
+              <div className="ai-badge">
+                
+              </div>
+
+              {/* Icon */}
+              <div className="pricing-icon workshop-icon">
+                <Presentation size={34} />
+              </div>
+
+              {/* Plan */}
+              <h3 className="fw-bold mt-4">
+                Premium Workshops
+              </h3>
+
+              <p className="text-muted">
+                Live practical sessions from
+                industry experts
+              </p>
+
+              {/* Price */}
+              <h1 className="pricing-price">
+                ₹999
+              </h1>
+
+              <p className="text-muted">
+                Starting price per workshop
+              </p>
+
+              {/* Features */}
+              <ul className="pricing-features list-unstyled mt-4">
+
+                <li>
+                  <BadgeIndianRupee size={18} />
+                  Meta Ads Workshop
+                </li>
+
+                <li>
+                  <BadgeIndianRupee size={18} />
+                  AI Marketing Sessions
+                </li>
+
+                <li>
+                  <BadgeIndianRupee size={18} />
+                  SEO Growth Blueprint
+                </li>
+
+                <li>
+                  <BadgeIndianRupee size={18} />
+                  Live Q&A + Networking
+                </li>
+
+                <li>
+                  <BadgeIndianRupee size={18} />
+                  Workshop Certificate
+                </li>
+
+              </ul>
+
+              {/* Button */}
+              <button className="btn btn-primary w-100 mt-4 pricing-btn">
+                Register Workshop
               </button>
 
             </div>
