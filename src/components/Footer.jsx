@@ -18,14 +18,14 @@ const Footer = () => {
 
             <div className="d-flex gap-3 mt-4">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1ELNyVv8Ga/"
                 className="text-white social-icon"
               >
                 <i className="bi bi-facebook"></i>
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/seyontechnology/"
                 className="text-white social-icon"
               >
                 <i className="bi bi-instagram"></i>
@@ -90,7 +90,7 @@ const Footer = () => {
               <li>SEO Optimization</li>
               <li>Social Media Marketing</li>
               <li>Google Ads</li>
-              <li>Analytics & Reporting</li>
+              <li>Email Marketing</li>
             </ul>
           </div>
 
@@ -101,7 +101,7 @@ const Footer = () => {
             </h5>
 
             <p className="mb-2">
-              📍 Chennai, Tamil Nadu
+              📍 Thousand Lights, Tamil Nadu
             </p>
 
             <p className="mb-2">

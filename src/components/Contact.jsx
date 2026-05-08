@@ -91,7 +91,7 @@ const Contact = () => {
                   </h5>
 
                   <p className="text-muted mb-0">
-                    Chennai, Tamil Nadu
+                    Thousand Lights, Tamil Nadu
                   </p>
                 </div>
 
@@ -145,20 +145,10 @@ const Contact = () => {
                   </option>
 
                   <option>
-                    SEO Optimization
+                    AI + Digital Marketing
                   </option>
 
-                  <option>
-                    Social Media Marketing
-                  </option>
-
-                  <option>
-                    Google Ads
-                  </option>
-
-                  <option>
-                    Marketing Analytics
-                  </option>
+                  
                 </select>
 
                 <textarea

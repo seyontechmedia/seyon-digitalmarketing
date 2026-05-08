@@ -15,11 +15,21 @@ const Hero = () => {
         </p>
 
         <div className="mt-4">
-          <button className="btn btn-primary btn-lg me-3">
+          <button className="btn btn-primary btn-lg me-3"
+          onClick={() => 
+            document.getElementById("workshop").scrollIntoView({ behavior: "smooth"})
+          }>
             Start Learning
           </button>
 
-          <button className="btn btn-outline-light btn-lg">
+          <button
+            className="btn btn-outline-light btn-lg"
+            onClick={() =>
+              document
+                .getElementById("courses")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
             Explore Courses
           </button>
         </div>

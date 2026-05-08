@@ -5,6 +5,8 @@ import {
   Users,
 } from "lucide-react";
 
+import Image from "../assets/Class-Image.jpg";
+
 const About = () => {
   return (
     <section id="about" className="about-section py-5">
@@ -16,14 +18,14 @@ const About = () => {
             <div className="about-image-wrapper">
 
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+                src={Image}
                 className="img-fluid rounded-4 shadow-lg about-image"
                 alt="About Seyon Tech"
               />
 
               {/* Floating Experience Card */}
               <div className="experience-card shadow">
-                <h2>3+</h2>
+                <h2>7+</h2>
 
                 <p>Years Experience</p>
               </div>
@@ -41,7 +43,7 @@ const About = () => {
 
             {/* Heading */}
             <h2 className="fw-bold display-5 mt-3">
-              Transform Your Career With
+              Become a Digital Marketing Expert With
               <span className="text-primary">
                 {" "}Seyon Tech
               </span>
@@ -152,7 +154,7 @@ const About = () => {
               <div className="col-4">
                 <div className="stat-box">
                   <h2 className="fw-bold text-primary">
-                    500+
+                    2000+
                   </h2>
 
                   <p className="text-muted mb-0">
@@ -164,7 +166,7 @@ const About = () => {
               <div className="col-4">
                 <div className="stat-box">
                   <h2 className="fw-bold text-primary">
-                    100+
+                    150+
                   </h2>
 
                   <p className="text-muted mb-0">
@@ -176,7 +178,7 @@ const About = () => {
               <div className="col-4">
                 <div className="stat-box">
                   <h2 className="fw-bold text-primary">
-                    95%
+                    100%
                   </h2>
 
                   <p className="text-muted mb-0">

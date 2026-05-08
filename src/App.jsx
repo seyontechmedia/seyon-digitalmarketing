@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Courses from "./components/Courses";
+import Workshop from "./components/Workshop";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import ProgressBar from "./components/ProgressBar";
@@ -11,6 +12,7 @@ import Footer from "./components/Footer";
 import { motion } from "framer-motion";
 
 import "./App.css";
+import WhoShouldLearn from "./components/WhoShouldLearn";
 
 function App() {
   return (
@@ -24,6 +26,10 @@ function App() {
       <About />
 
       <Courses />
+
+      <WhoShouldLearn />
+
+      <Workshop />
 
       <Pricing />
 
