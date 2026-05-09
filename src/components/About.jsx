@@ -5,7 +5,7 @@ import {
   Users,
 } from "lucide-react";
 
-import Image from "../assets/Class-Image.jpg";
+import Banner from "../assets/Banner.jpeg";
 
 const About = () => {
   return (
@@ -18,16 +18,20 @@ const About = () => {
             <div className="about-image-wrapper">
 
               <img
-                src={Image}
+                src={Banner}
                 className="img-fluid rounded-4 shadow-lg about-image"
                 alt="About Seyon Tech"
               />
 
               {/* Floating Experience Card */}
               <div className="experience-card shadow">
-                <h2>7+</h2>
 
-                <p>Years Experience</p>
+
+                <h2>SATHISH ARUMUGAM</h2>
+
+                <p>SEYON TECH DIGITAL MEDIA SOLUTIONS </p>
+
+                <p> FOUNDER & MANAGING DIRECTOR </p>
               </div>
 
             </div>
@@ -154,11 +158,11 @@ const About = () => {
               <div className="col-4">
                 <div className="stat-box">
                   <h2 className="fw-bold text-primary">
-                    2000+
+                    7+
                   </h2>
 
                   <p className="text-muted mb-0">
-                    Students
+                    Experience
                   </p>
                 </div>
               </div>
@@ -170,7 +174,7 @@ const About = () => {
                   </h2>
 
                   <p className="text-muted mb-0">
-                    Projects
+                    Students Trained
                   </p>
                 </div>
               </div>
@@ -178,11 +182,11 @@ const About = () => {
               <div className="col-4">
                 <div className="stat-box">
                   <h2 className="fw-bold text-primary">
-                    100%
+                    50+
                   </h2>
 
                   <p className="text-muted mb-0">
-                    Success
+                    Engineering Colleges 
                   </p>
                 </div>
               </div>
