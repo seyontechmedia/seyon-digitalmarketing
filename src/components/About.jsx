@@ -33,7 +33,7 @@ const About = () => {
 
                 <h2>SATHISH ARUMUGAM</h2>
 
-                <p>Digital Marketing Specialist / Trainee</p>
+                <p>Digital Marketing Specialist / Trainer</p>
 
                 <p>SEYON TECH DIGITAL MEDIA SOLUTIONS</p>
 

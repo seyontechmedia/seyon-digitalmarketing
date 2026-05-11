@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   GraduationCap,
   Briefcase,
@@ -130,6 +131,14 @@ export default function FounderBio() {
         <p className="fst-italic mt-3">
           “Transforming Brands with Innovation, Strategy & Digital Excellence.”
         </p>
+      </div>
+
+       <div className="mb-4">
+        <Link to="/about">
+          <button className="bio-btn">
+            ← Back to About
+          </button>
+        </Link>
       </div>
 
     </div>

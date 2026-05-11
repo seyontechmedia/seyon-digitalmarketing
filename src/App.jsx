@@ -31,10 +31,7 @@ function App() {
 
       <About />
 
-      <Routes>
-      
-        <Route path="/founder-bio" element={<FounderBio />} />
-      </Routes>
+
 
       <Courses />
 
@@ -45,6 +42,11 @@ function App() {
       <Pricing />
 
       <Contact />
+
+      <Routes>
+      
+        <Route path="/founder-bio" element={<FounderBio />} />
+      </Routes>
 
       <Footer />
 
