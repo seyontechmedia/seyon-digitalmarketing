@@ -10,6 +10,8 @@ import {
   Star,
   Zap,
   Phone,
+  MapPin,
+  Calendar,
   Link as LinkIcon,
 } from "lucide-react";
 
@@ -40,7 +42,14 @@ export default function FounderBio() {
           <div className="bio-card">
             <h4><GraduationCap size={20} /> Education</h4>
             <p>B.E Mechanical Engineering – 2015</p>
-            <p>📍 Tirupattur, Tamil Nadu | Born: June 12, 1993</p>
+            <p className="mb-2 d-flex align-items-center gap-2"> 
+              <Calendar size={18} />
+              Born: June 12, 1993
+            </p>
+            <p className="mb-2 d-flex align-items-center gap-2">
+              <MapPin size={18} />
+              Tirupattur, Tamil Nadu
+            </p>
           </div>
         </div>
 

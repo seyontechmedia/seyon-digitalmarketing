@@ -1,9 +1,10 @@
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="footer-section bg-dark text-white pt-5 pb-3">
       <div className="container">
         <div className="row g-4">
-          
+
           {/* Company Info */}
           <div className="col-lg-4">
             <h3 className="fw-bold mb-3">
@@ -100,20 +101,24 @@ const Footer = () => {
               Contact Us
             </h5>
 
-            <p className="mb-2">
-              📍 Thousand Lights, Tamil Nadu
+            <p className="mb-2 d-flex align-items-center gap-2">
+              <MapPin size={18} />
+              Thousand Lights, Tamil Nadu
             </p>
 
-            <p className="mb-2">
-              📞 +91 86104 99770
+            <p className="mb-2 d-flex align-items-center gap-2">
+              <Phone size={18} />
+              +91 86104 99770
             </p>
 
-            <p className="mb-2">
-              ✉ info@seyontech.in
+            <p className="mb-2 d-flex align-items-center gap-2">
+              <Mail size={18} />
+              info@seyontech.in
             </p>
 
-            <p>
-              🕒 Mon - Sat | 9 AM - 6 PM
+            <p className="d-flex align-items-center gap-2">
+              <Clock size={18} />
+              Mon - Sat | 9 AM - 7 PM
             </p>
           </div>
         </div>
