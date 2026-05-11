@@ -17,6 +17,23 @@ body {
   background-position: center;
 }
 
+.bio-btn {
+  margin-top: 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0015ff, #0077ff); /* electric violet style */
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.bio-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 213, 255, 0.3);
+}
+
 .course-card {
   transition: 0.3s;
 }
@@ -1206,4 +1223,61 @@ textarea.custom-input {
 .workshop-card .ai-badge {
   background: #0f172a;
   color: white;
+}
+
+.founder-bio {
+  color: #fff;
+}
+
+/* HERO CARD */
+.bio-hero-card {
+  padding: 40px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0841b3, #1e40af);
+  box-shadow: 0 10px 40px rgba(30, 64, 175, 0.25);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* SECTION CARDS */
+.bio-card {
+  background: #0841b3;
+  padding: 25px;
+  border-radius: 16px;
+  height: 100%;
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+
+.bio-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(30, 64, 175, 0.25);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.bio-card h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: #60a5fa;
+}
+
+/* CONTACT CARD */
+.bio-contact-card {
+  padding: 30px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #0841b3, #0f172a);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 30px rgba(30, 64, 175, 0.15);
+}
+
+/* LINKS */
+.bio-contact-card a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.bio-contact-card a:hover {
+  text-decoration: underline;
 }

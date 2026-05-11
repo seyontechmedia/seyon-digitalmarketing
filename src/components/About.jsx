@@ -3,7 +3,12 @@ import {
   GraduationCap,
   BarChart3,
   Users,
+  School,
+  Award,
+  CheckCircle
 } from "lucide-react";
+
+import { Link } from "react-router-dom";
 
 import Banner from "../assets/Banner.jpeg";
 
@@ -26,12 +31,21 @@ const About = () => {
               {/* Floating Experience Card */}
               <div className="experience-card shadow">
 
-
                 <h2>SATHISH ARUMUGAM</h2>
 
-                <p>SEYON TECH DIGITAL MEDIA SOLUTIONS </p>
+                <p>Digital Marketing Specialist / Trainee</p>
 
-                <p> FOUNDER & MANAGING DIRECTOR </p>
+                <p>SEYON TECH DIGITAL MEDIA SOLUTIONS</p>
+
+                <p>FOUNDER & MANAGING DIRECTOR</p>
+
+                {/* Button */}
+                <Link to="/founder-bio">
+                  <button className="bio-btn">
+                    View Bio
+                  </button>
+                </Link>
+
               </div>
 
             </div>
@@ -47,7 +61,7 @@ const About = () => {
 
             {/* Heading */}
             <h2 className="fw-bold display-5 mt-3">
-              Become a Digital Marketing Expert With
+              Learn from an industry expert with
               <span className="text-primary">
                 {" "}Seyon Tech
               </span>
@@ -155,43 +169,35 @@ const About = () => {
             {/* Stats */}
             <div className="row mt-5 text-center">
 
+              {/* Experience */}
               <div className="col-4">
-                <div className="stat-box">
-                  <h2 className="fw-bold text-primary">
-                    7+
-                  </h2>
-
-                  <p className="text-muted mb-0">
-                    Experience
-                  </p>
+                <div className="stats-card shadow">
+                  <Award size={40} className="text-primary mb-2" />
+                  <h2 className="fw-bold text-primary">7+</h2>
+                  <p className="text-muted mb-0">Experience</p>
                 </div>
               </div>
 
+              {/* Students Trained */}
               <div className="col-4">
-                <div className="stat-box">
-                  <h2 className="fw-bold text-primary">
-                    150+
-                  </h2>
-
-                  <p className="text-muted mb-0">
-                    Students Trained
-                  </p>
+                <div className="stats-card shadow">
+                  <CheckCircle size={40} className="text-primary mb-2" />
+                  <h2 className="fw-bold text-primary">20000+</h2>
+                  <p className="text-muted mb-0">Students Trained</p>
                 </div>
               </div>
 
+              {/* Engineering Colleges */}
               <div className="col-4">
-                <div className="stat-box">
-                  <h2 className="fw-bold text-primary">
-                    50+
-                  </h2>
-
-                  <p className="text-muted mb-0">
-                    Engineering Colleges 
-                  </p>
+                <div className="stats-card shadow">
+                  <School size={40} className="text-primary mb-2" />
+                  <h2 className="fw-bold text-primary">50+</h2>
+                  <p className="text-muted mb-0">Engineering Colleges</p>
                 </div>
               </div>
 
             </div>
+
 
           </div>
         </div>

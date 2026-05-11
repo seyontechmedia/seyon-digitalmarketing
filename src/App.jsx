@@ -8,8 +8,11 @@ import Contact from "./components/Contact";
 import ProgressBar from "./components/ProgressBar";
 import ScrollTop from "./components/ScrollTop";
 import Footer from "./components/Footer";
+import FounderBio from "./pages/FounderBio";
 
 import { motion } from "framer-motion";
+
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import WhoShouldLearn from "./components/WhoShouldLearn";
@@ -17,6 +20,9 @@ import WhoShouldLearn from "./components/WhoShouldLearn";
 function App() {
   return (
     <>
+      
+
+
       <ProgressBar />
 
       <Navbar />
@@ -24,6 +30,11 @@ function App() {
       <Hero />
 
       <About />
+
+      <Routes>
+      
+        <Route path="/founder-bio" element={<FounderBio />} />
+      </Routes>
 
       <Courses />
 
