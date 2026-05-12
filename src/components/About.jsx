@@ -34,10 +34,10 @@ const About = () => {
 
                 <h2>SATHISH ARUMUGAM</h2>
 
-                <p style={{ color: 'white', fontWeight: 'bold', textAlign: 'left' }}>Digital Marketing Specialist / Trainer </p>
+                <p>Digital Marketing Specialist / Trainer </p>
 
 
-                <p style={{ color: 'white', fontWeight: 'bold', textAlign: 'left' }}>FOUNDER & MANAGING DIRECTOR</p>
+                <p>SeyonTech Digital Media Solutions - FOUNDER & MANAGING DIRECTOR</p>
 
                 {/* Button */}
                 <Link to="/founder-bio">
@@ -182,7 +182,7 @@ const About = () => {
               <div className="col-4">
                 <div className="stats-card shadow">
                   <GraduationCap size={40} className="text-primary mb-2" />
-                  <h2 className="fw-bold text-primary">10000+</h2>
+                  <h2 className="fw-bold text-primary">20000+</h2>
                   <p className="text-muted mb-0">Students Trained</p>
                 </div>
               </div>

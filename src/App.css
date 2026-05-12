@@ -121,8 +121,8 @@ body {
 }
 
 .course-icon {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 
   background: linear-gradient(
     135deg,
@@ -184,8 +184,10 @@ body {
 
   width: 600px;
 
+  height: auto;
 
-  background: none;
+
+  background: rgba(255,255,255,0.9);
 
   padding: 10px 20px;
 
