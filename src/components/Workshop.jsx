@@ -65,7 +65,7 @@ const Workshop = () => {
 
                 <span>
                   <Clock3 size={16} />
-                  2 Hours
+                  6 Hours
                 </span>
 
               </div>
@@ -124,7 +124,7 @@ const Workshop = () => {
 
                 <span>
                   <Clock3 size={16} />
-                  3 Hours
+                  6.5 Hours
                 </span>
 
               </div>
@@ -179,7 +179,7 @@ const Workshop = () => {
 
                 <span>
                   <Clock3 size={16} />
-                  2.5 Hours
+                  7.5 Hours
                 </span>
 
               </div>

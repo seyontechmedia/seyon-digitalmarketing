@@ -46,7 +46,7 @@ const Pricing = () => {
 
               {/* Badge */}
               <div className="popular-badge">
-                Begineer
+                Bootcamp
               </div>
 
               {/* Icon */}
@@ -59,7 +59,7 @@ const Pricing = () => {
                 Starter Plan
               </h3>
 
-              <div className="d-flex align-items-center gap-2">
+              <div className="d-flex align-items-center gap-2 fw-bold text-primary">
                 <CalendarDays size={20} />
                 <span>30 Days Program</span>
               </div>
@@ -141,7 +141,7 @@ const Pricing = () => {
                 AI Digital Marketing
               </h3>
 
-              <div className="d-flex align-items-center gap-2">
+              <div className="d-flex align-items-center gap-2 fw-bold text-primary">
                 <CalendarDays size={20} />
                 <span>100 Days Program</span>
               </div>
@@ -221,7 +221,7 @@ const Pricing = () => {
                 Premium Workshops
               </h3>
 
-              <div className="d-flex align-items-center gap-2">
+              <div className="d-flex align-items-center gap-2 fw-bold text-primary">
                 <CalendarDays size={20} />
                 <span>1 Day Program</span>
               </div>

@@ -1378,3 +1378,11 @@ textarea.custom-input {
   transform: translateY(-2px);
 }
 
+.stats-card {
+  min-height: 220px;
+  border-radius: 20px;
+}
+
+.stats-card p {
+  white-space: nowrap;
+}

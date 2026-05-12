@@ -77,7 +77,7 @@ const courseList = [
     desc: "Build professional authority and attract clients through LinkedIn branding strategies.",
   },
 
- { icon: <LineChart size={36} />, title: "Marketing Analytics", desc: "Track traffic, conversions and campaign performance using Google Analytics 4, GTM and reporting tools.", },
+  { icon: <LineChart size={36} />, title: "Marketing Analytics", desc: "Track traffic, conversions and campaign performance using Google Analytics 4, GTM and reporting tools.", },
 
   {
     icon: <BadgeDollarSign size={36} />,
@@ -117,7 +117,7 @@ const Courses = () => {
 
               <div className="course-card card border-0 shadow-sm h-100">
 
-                <div className="card-body p-4">
+                <div className="card-body p-4 d-flex flex-column">
 
                   {/* Icon */}
                   <div className="course-icon mb-4">
@@ -130,19 +130,23 @@ const Courses = () => {
                   </h4>
 
                   {/* Description */}
-                  <p className="text-muted">
+                  <p className="text-muted flex-grow-1">
                     {course.desc}
                   </p>
 
                   {/* Button */}
-                  <button className="btn btn-primary mt-3 w-100">
+                  <a
+                    href={`https://wa.me/918610499770?text=Hi%20I%20want%20to%20know%20about%20${course.title}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary mt-3 w-100"
+                  >
                     Explore Module
-                  </button>
+                  </a>
 
                 </div>
 
               </div>
-
             </div>
           ))}
 

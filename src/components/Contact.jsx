@@ -160,7 +160,7 @@ const Contact = () => {
                 <a
                   href="https://wa.me/918610499770"
                   target="_blank"
-                  type="button"
+                  
                   rel="noopener noreferrer"
                   className="btn btn-primary submit-btn mt-4 d-inline-flex align-items-center gap-2"
                 >

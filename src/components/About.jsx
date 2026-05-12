@@ -165,32 +165,65 @@ const About = () => {
             </div>
 
             {/* Stats */}
-            <div className="row mt-5 text-center">
+            <div className="row mt-4 g-4 text-center justify-content-center">
 
               {/* Experience */}
-              <div className="col-4">
-                <div className="stats-card shadow">
-                  <AwardIcon size={40} className="text-primary mb-2" />
-                  <h2 className="fw-bold text-primary">7+</h2>
-                  <p className="text-muted mb-0">Experience</p>
+              <div className="col-lg-4 col-md-4 col-12">
+                <div className="stats-card shadow h-100 d-flex flex-column align-items-center justify-content-center p-4">
+
+                  <AwardIcon
+                    size={45}
+                    className="text-primary mb-3"
+                  />
+
+                  <h2 className="fw-bold text-primary mb-2">
+                    7+
+                  </h2>
+
+                  <p className="text-muted mb-0">
+                    Experience
+                  </p>
+
                 </div>
               </div>
 
               {/* Students Trained */}
-              <div className="col-4">
-                <div className="stats-card shadow">
-                  <GraduationCap size={40} className="text-primary mb-2" />
-                  <h2 className="fw-bold text-primary">20000+</h2>
-                  <p className="text-muted mb-0">Students Trained</p>
+              <div className="col-lg-4 col-md-4 col-12">
+                <div className="stats-card shadow h-100 d-flex flex-column align-items-center justify-content-center p-4">
+
+                  <GraduationCap
+                    size={45}
+                    className="text-primary mb-3"
+                  />
+
+                  <h2 className="fw-bold text-primary mb-2">
+                    20000+
+                  </h2>
+
+                  <p className="text-muted mb-0">
+                    Students Trained
+                  </p>
+
                 </div>
               </div>
 
               {/* Engineering Colleges */}
-              <div className="col-4">
-                <div className="stats-card shadow">
-                  <Building2 size={40} className="text-primary mb-2" />
-                  <h2 className="fw-bold text-primary">50+</h2>
-                  <p className="text-muted mb-0">Engineering Colleges</p>
+              <div className="col-lg-4 col-md-6 col-12">
+                <div className="stats-card shadow h-100 d-flex flex-column align-items-center justify-content-center p-4">
+
+                  <Building2
+                    size={45}
+                    className="text-primary mb-3"
+                  />
+
+                  <h2 className="fw-bold text-primary mb-2">
+                    50+
+                  </h2>
+
+                  <p className="text-muted mb-0">
+                    Engineering Colleges
+                  </p>
+
                 </div>
               </div>
 
