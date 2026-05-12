@@ -18,69 +18,69 @@ import {
 
 const courseList = [
   {
-    icon: <BrainCircuit size={34} />,
+    icon: <BrainCircuit size={36} />,
     title: "AI Digital Marketing",
     desc: "Learn AI tools like ChatGPT, Canva AI for automation workflows and smart marketing strategies for faster growth.",
   },
 
   {
-    icon: <Share2 size={34} />,
+    icon: <Share2 size={36} />,
     title: "Social Media Marketing",
     desc: "Master Instagram, Facebook, YouTube and LinkedIn marketing to grow brands and engagement.",
   },
 
   {
-    icon: <Target size={34} />,
+    icon: <Target size={36} />,
     title: "Google Ads & Meta Ads",
     desc: "Run high-converting ad campaigns with targeting, optimization and scaling strategies.",
   },
 
   {
-    icon: <Users size={34} />,
+    icon: <Users size={36} />,
     title: "Lead Generation Techniques",
     desc: "Generate quality leads using ads, funnels, landing pages and organic methods.",
   },
 
   {
-    icon: <BarChart3 size={34} />,
+    icon: <BarChart3 size={36} />,
     title: "Sales Funnel Creation",
     desc: "Build complete funnels from awareness to conversion using proven marketing systems.",
   },
 
   {
-    icon: <MessageCircle size={34} />,
+    icon: <MessageCircle size={36} />,
     title: "WhatsApp Automation Marketing",
     desc: "Automate customer messaging, campaigns and follow-ups using WhatsApp tools.",
   },
 
   {
-    icon: <Inbox size={34} />,
+    icon: <Inbox size={36} />,
     title: "Email & Bulk Marketing",
     desc: "Create powerful email campaigns and bulk messaging strategies for customer retention.",
   },
 
   {
-    icon: <PenTool size={34} />,
+    icon: <PenTool size={36} />,
     title: "Content & Graphic Marketing",
     desc: "Design engaging creatives, branding posts and content strategies for marketing success.",
   },
 
   {
-    icon: <Search size={34} />,
+    icon: <Search size={36} />,
     title: "SEO Optimization",
     desc: "Improve website ranking with keyword research, backlinks and technical SEO.",
   },
 
   {
-    icon: <UserCircle size={34} />,
+    icon: <UserCircle size={36} />,
     title: "LinkedIn Personal Branding",
     desc: "Build professional authority and attract clients through LinkedIn branding strategies.",
   },
 
- { icon: <LineChart size={34} />, title: "Marketing Analytics", desc: "Track traffic, conversions and campaign performance using Google Analytics 4, GTM and reporting tools.", },
+ { icon: <LineChart size={36} />, title: "Marketing Analytics", desc: "Track traffic, conversions and campaign performance using Google Analytics 4, GTM and reporting tools.", },
 
   {
-    icon: <BadgeDollarSign size={34} />,
+    icon: <BadgeDollarSign size={36} />,
     title: "Performance & Budget Allocation",
     desc: "Learn ROI optimization, ad budgeting and performance scaling techniques.",
   },

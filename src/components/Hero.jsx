@@ -11,7 +11,7 @@ const Hero = () => {
 
         <p className="lead mt-4">
           Learn SEO, Meta Ads, Google Ads &
-          Analytics from industry experts.
+          Software Development from industry experts.
         </p>
 
         <div className="mt-4">

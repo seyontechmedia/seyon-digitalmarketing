@@ -5,6 +5,7 @@ import {
   CheckCircle2,
   Sparkles,
   BadgeIndianRupee,
+  CalendarDays,
 } from "lucide-react";
 
 const Pricing = () => {
@@ -43,6 +44,11 @@ const Pricing = () => {
 
             <div className="pricing-card shadow-sm h-100">
 
+              {/* Badge */}
+              <div className="popular-badge">
+                Begineer
+              </div>
+
               {/* Icon */}
               <div className="pricing-icon">
                 <BookOpen size={34} />
@@ -52,6 +58,11 @@ const Pricing = () => {
               <h3 className="fw-bold mt-4">
                 Starter Plan
               </h3>
+
+              <div className="d-flex align-items-center gap-2">
+                <CalendarDays size={20} />
+                <span>30 Days Program</span>
+              </div>
 
               <p className="text-muted">
                 Perfect for beginners &
@@ -98,36 +109,45 @@ const Pricing = () => {
               </ul>
 
               {/* Button */}
-              <button className="btn btn-outline-primary w-100 mt-4 pricing-btn">
-                Get Started
-              </button>
+              <a
+                href="https://wa.me/918610499770"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary w-100 mt-4 pricing-btn"
+              >
+                Get Start
+              </a>
 
             </div>
           </div>
 
-          {/* AI Digitla Marketing */}
+          {/* AI Digital Marketing */}
           <div className="col-lg-4 col-md-6">
 
             <div className="pricing-card premium shadow-lg h-100">
 
               {/* Badge */}
               <div className="popular-badge">
-                MOST POPULAR
+                Course
               </div>
 
               {/* Icon */}
-              <div className="pricing-icon premium-icon">
+              <div className="pricing-icon">
                 <BrainCircuit size={34} />
               </div>
 
               {/* Plan */}
               <h3 className="fw-bold mt-4">
-                AI Powered Digital Marketing Course
+                AI Digital Marketing
               </h3>
 
+              <div className="d-flex align-items-center gap-2">
+                <CalendarDays size={20} />
+                <span>100 Days Program</span>
+              </div>
+
               <p className="text-muted">
-                Advanced AI digital marketing
-                master program
+                Advanced AI digital marketing course.
               </p>
 
               {/* Price */}
@@ -144,17 +164,17 @@ const Pricing = () => {
 
                 <li>
                   <Sparkles size={18} />
-                  ChatGPT & Claude AI
+                  AI Marketing Mastery
                 </li>
 
                 <li>
                   <Sparkles size={18} />
-                  Canva AI & CapCut
+                  AI Content Creation
                 </li>
 
                 <li>
                   <Sparkles size={18} />
-                  WhatsApp Automation
+                  AI SEO Optimization
                 </li>
 
                 <li>
@@ -170,9 +190,14 @@ const Pricing = () => {
               </ul>
 
               {/* Button */}
-              <button className="btn btn-primary w-100 mt-4 pricing-btn">
-                Join Course
-              </button>
+              <a
+                href="https://wa.me/918610499770"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary w-100 mt-4 pricing-btn"
+              >
+                Enroll Now
+              </a>
 
             </div>
           </div>
@@ -182,13 +207,12 @@ const Pricing = () => {
 
             <div className="pricing-card workshop-card shadow-sm h-100">
 
-              {/* Badge */}
-              <div className="ai-badge">
-                
+              <div className="popular-badge">
+                Workshop
               </div>
 
               {/* Icon */}
-              <div className="pricing-icon workshop-icon">
+              <div className="pricing-icon">
                 <Presentation size={34} />
               </div>
 
@@ -196,6 +220,11 @@ const Pricing = () => {
               <h3 className="fw-bold mt-4">
                 Premium Workshops
               </h3>
+
+              <div className="d-flex align-items-center gap-2">
+                <CalendarDays size={20} />
+                <span>1 Day Program</span>
+              </div>
 
               <p className="text-muted">
                 Live practical sessions from
@@ -242,9 +271,14 @@ const Pricing = () => {
               </ul>
 
               {/* Button */}
-              <button className="btn btn-primary w-100 mt-4 pricing-btn">
+              <a
+                href="https://wa.me/918610499770"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary w-100 mt-4 pricing-btn"
+              >
                 Register Workshop
-              </button>
+              </a>
 
             </div>
           </div>

@@ -68,10 +68,16 @@ const Navbar = () => {
               </a>
             </li>
 
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
+                Contact
+              </a>
+            </li>
+
             <li className="nav-item ms-lg-3">
               <a
                 className="btn btn-primary"
-                href="#contact"
+                href="https://wa.me/918610499770"
               >
                 Enroll Now
               </a>

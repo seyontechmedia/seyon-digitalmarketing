@@ -126,11 +126,29 @@ const Footer = () => {
         <hr className="border-secondary my-4" />
 
         {/* Bottom */}
-        <div className="text-center">
-          <p className="mb-0 text-light">
-            © 2026 Seyon Tech Digital Media
-            Solutions. All Rights Reserved.
-          </p>
+        <div className="d-flex justify-content-between align-items-center flex-wrap">
+
+          <div className="text-start">
+            <p className="mb-0 text-light">
+              © 2026 Seyon Tech Digital Media
+              Solutions. All Rights Reserved.
+            </p>
+          </div>
+
+          <div className="d-flex gap-4 text-end">
+            <p className="mb-0 text-light">
+              Privacy Policy
+            </p>
+
+            <p className="mb-0 text-light">
+              Terms of Service
+            </p>
+
+            <p className="mb-0 text-light">
+              Career Guidance
+            </p>
+          </div>
+
         </div>
       </div>
     </footer>

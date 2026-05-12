@@ -33,7 +33,7 @@ const ScrollTop = () => {
           width: "60px",
           height: "60px",
           borderRadius: "50%",
-          fontSize: "34px",
+          fontSize: "40px",
           boxShadow: "2px 2px 10px rgba(0,0,0,0.2)",
           position: "fixed",
           bottom: "20px",

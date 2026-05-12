@@ -179,10 +179,10 @@ body {
 .experience-card {
   position: absolute;
 
-  bottom: 5px;
+  bottom: 1px;
   left: 1.5px;
 
-  width: 620px;
+  width: calc(100% - 3px);
 
   height: auto;
 
@@ -192,14 +192,14 @@ body {
 
   padding: 10px 20px;
 
-  border-radius: 20px;
+  border-radius: 0 0 18px 18px;
 
   text-align: left;
 }
 
 .experience-card h2 {
   color: #2563eb;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
 }
 

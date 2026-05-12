@@ -148,7 +148,7 @@ const Contact = () => {
                     AI + Digital Marketing
                   </option>
 
-                  
+
                 </select>
 
                 <textarea
@@ -157,11 +157,15 @@ const Contact = () => {
                   placeholder="Tell us about your goals..."
                 ></textarea>
 
-                <button className="btn btn-primary submit-btn mt-4">
+                <a
+                  href="https://wa.me/918610499770"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary submit-btn mt-4 gap-2"
+                >
                   <Send size={18} />
-
                   Send Inquiry
-                </button>
+                </a>
 
               </form>
 
