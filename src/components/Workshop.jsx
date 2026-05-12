@@ -1,9 +1,12 @@
 import {
-  Presentation,
+
   CalendarDays,
   Clock3,
   Users,
   ArrowRight,
+  Megaphone,
+  Bot,
+  LineChart,
 } from "lucide-react";
 
 const Workshop = () => {
@@ -43,7 +46,7 @@ const Workshop = () => {
             <div className="workshop-box shadow-sm">
 
               <div className="workshop-icon">
-                <Presentation size={34} />
+                <Megaphone size={34} />
               </div>
 
               <h4 className="fw-bold mt-4">
@@ -102,7 +105,7 @@ const Workshop = () => {
               </div>
 
               <div className="workshop-icon">
-                <Presentation size={34} />
+                <Bot size={34} />
               </div>
 
               <h4 className="fw-bold mt-4">
@@ -157,7 +160,7 @@ const Workshop = () => {
             <div className="workshop-box shadow-sm">
 
               <div className="workshop-icon">
-                <Presentation size={34} />
+                < LineChart size={34} />
               </div>
 
               <h4 className="fw-bold mt-4">
