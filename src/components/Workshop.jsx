@@ -77,9 +77,14 @@ const Workshop = () => {
                   120+ Joined
                 </span>
 
-                <button className="btn btn-primary">
+                <a
+                  href="https://wa.me/918610499770?text=Hi%20want%20to%20join"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
                   Join Now
-                </button>
+                </a>
 
               </div>
 
@@ -131,9 +136,14 @@ const Workshop = () => {
                   250+ Joined
                 </span>
 
-                <button className="btn btn-light text-primary">
+                <a
+                  href="https://wa.me/918610499770?text=Hi%20want%20to%20register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-light text-primary"
+                >
                   Register
-                </button>
+                </a>
 
               </div>
 
@@ -181,9 +191,14 @@ const Workshop = () => {
                   90+ Joined
                 </span>
 
-                <button className="btn btn-primary">
+                <a
+                  href="https://wa.me/918610499770?text=Hi%20want%20to%20Explore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
                   Explore
-                </button>
+                </a>
 
               </div>
 
@@ -196,11 +211,14 @@ const Workshop = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-5">
 
-          <button className="btn workshop-main-btn">
+          <a
+            href="https://wa.me/918610499770?text=Hi%20want%20to%20view%20all%20workshops"
+            className="btn btn-light text-primary fw-bold"
+          >
             View All Workshops
 
-            <ArrowRight size={20} />
-          </button>
+            <ArrowRight size={18} />
+          </a>
 
         </div>
 
