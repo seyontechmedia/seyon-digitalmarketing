@@ -1,10 +1,11 @@
 import {
   GraduationCap,
   Briefcase,
-  TrendingUp,
+
   UserPlus,
   Laptop,
   Store,
+  User,
 } from "lucide-react";
 
 const WhoShouldLearn = () => {
@@ -65,7 +66,7 @@ const WhoShouldLearn = () => {
           <div className="col-lg-4 col-md-6">
             <div className="who-card shadow-sm">
 
-              <TrendingUp size={38} className="who-icon" />
+              <User size={38} className="who-icon" />
 
               <h4>Freelancers</h4>
               <p>

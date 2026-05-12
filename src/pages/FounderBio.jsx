@@ -22,7 +22,7 @@ export default function FounderBio() {
       {/* HERO CARD */}
       <div className="bio-hero-card text-center mb-5">
         <h1 className="fw-bold">
-          Professional Profile – Sathish Arumugam
+          Sathish Arumugam
         </h1>
 
         <p className="lead mt-3">

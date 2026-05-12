@@ -180,20 +180,24 @@ body {
   position: absolute;
 
   bottom: 5px;
-  left: 30px;
+  left: 15px;
 
-  background: white;
+  width: 600px;
+
+
+  background: none;
 
   padding: 10px 20px;
 
   border-radius: 20px;
 
-  text-align: center;
+  text-align: left;
 }
 
 .experience-card h2 {
   color: #2563eb;
   font-weight: 700;
+  font-size: 28px;
 }
 
 .about-tag {

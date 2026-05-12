@@ -6,7 +6,7 @@ const Hero = () => {
     >
       <div className="container text-center">
         <h1 className="display-2 fw-bold">
-          Master Digital Marketing
+          Master AI Digital Marketing
         </h1>
 
         <p className="lead mt-4">
