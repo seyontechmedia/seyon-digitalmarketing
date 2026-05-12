@@ -180,14 +180,15 @@ body {
   position: absolute;
 
   bottom: 5px;
-  left: 15px;
+  left: 1.5px;
 
-  width: 600px;
+  width: 620px;
 
   height: auto;
 
 
   background: rgba(255,255,255,0.9);
+  
 
   padding: 10px 20px;
 
@@ -198,8 +199,8 @@ body {
 
 .experience-card h2 {
   color: #2563eb;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .about-tag {

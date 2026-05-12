@@ -32,9 +32,7 @@ const About = () => {
               {/* Floating Experience Card */}
               <div className="experience-card shadow">
 
-                <h2>SATHISH ARUMUGAM</h2>
-
-                <p>Digital Marketing Specialist / Trainer </p>
+                <h2>SATHISH ARUMUGAM - Digital Marketing Specialist / Trainer </h2>
 
 
                 <p>SeyonTech Digital Media Solutions - FOUNDER & MANAGING DIRECTOR</p>
