@@ -109,7 +109,7 @@ const Contact = () => {
                 Enroll Now
               </h3>
 
-              <form>
+              <form onSubmit={(e) => e.preventDefault()}>
 
                 <div className="row">
 
@@ -160,8 +160,9 @@ const Contact = () => {
                 <a
                   href="https://wa.me/918610499770"
                   target="_blank"
+                  type="button"
                   rel="noopener noreferrer"
-                  className="btn btn-primary submit-btn mt-4 gap-2"
+                  className="btn btn-primary submit-btn mt-4 d-inline-flex align-items-center gap-2"
                 >
                   <Send size={18} />
                   Send Inquiry
