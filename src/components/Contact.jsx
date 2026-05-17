@@ -46,19 +46,19 @@ const Contact = () => {
   };
 
   const classTimings = [
-  {
-    label: "Weekday Morning Batch",
-    time: "8:00 AM – 10:00 AM",
-  },
-  {
-    label: "Weekday Evening Batch",
-    time: "4:00 PM – 6:00 PM",
-  },
-  {
-    label: "Weekend Special Batch",
-    time: "Same timings as Weekday's",
-  },
-];
+    {
+      label: "Weekday Morning Batch",
+      time: "8:00 AM – 10:00 AM",
+    },
+    {
+      label: "Weekday Evening Batch",
+      time: "4:00 PM – 6:00 PM",
+    },
+    {
+      label: "Weekend Special Batch",
+      time: "Same timings as Weekday's",
+    },
+  ];
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -128,26 +128,6 @@ Message: ${formData.message}`;
                   </p>
                 </div>
               </div>
-
-              {/* ✅ CLASS TIMINGS CARD (DYNAMIC) */}
-              <div className="info-card shadow-sm">
-                <div className="info-icon">
-                  <Clock size={28} />
-                </div>
-
-                <div>
-                  <h5 className="fw-bold mb-2">
-                    Class Timings
-                  </h5>
-
-                  {classTimings.map((item, index) => (
-                    <p key={index} className="text-muted mb-1">
-                      <strong>{item.label}:</strong> {item.time}
-                    </p>
-                  ))}
-                </div>
-              </div>
-
             </div>
           </div>
 

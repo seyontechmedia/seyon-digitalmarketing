@@ -62,11 +62,6 @@ const Workshop = () => {
               <div className="workshop-details">
 
                 <span>
-                  <CalendarDays size={16} />
-                  12 May 2026
-                </span>
-
-                <span>
                   <Clock3 size={16} />
                   6 Hours
                 </span>
@@ -121,11 +116,6 @@ const Workshop = () => {
               <div className="workshop-details">
 
                 <span>
-                  <CalendarDays size={16} />
-                  18 May 2026
-                </span>
-
-                <span>
                   <Clock3 size={16} />
                   6.5 Hours
                 </span>
@@ -147,11 +137,8 @@ const Workshop = () => {
                 >
                   Register
                 </a>
-
               </div>
-
             </div>
-
           </div>
 
           {/* Card 3 */}
@@ -174,21 +161,13 @@ const Workshop = () => {
               </p>
 
               <div className="workshop-details">
-
-                <span>
-                  <CalendarDays size={16} />
-                  25 May 2026
-                </span>
-
                 <span>
                   <Clock3 size={16} />
                   7.5 Hours
                 </span>
-
               </div>
 
               <div className="workshop-footer">
-
                 <span>
                   <Users size={16} />
                   90+ Joined
@@ -211,19 +190,6 @@ const Workshop = () => {
 
         </div>
 
-        {/* Bottom CTA */}
-        <div className="text-center mt-5">
-
-          <a
-            href="https://wa.me/918610499770?text=Hi%20want%20to%20view%20all%20workshops"
-            className="btn btn-light text-primary fw-bold"
-          >
-            View All Workshops
-
-            <ArrowRight size={18} />
-          </a>
-
-        </div>
 
       </div>
     </section>

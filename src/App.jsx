@@ -9,10 +9,9 @@ import ProgressBar from "./components/ProgressBar";
 import ScrollTop from "./components/ScrollTop";
 import Footer from "./components/Footer";
 import FounderBio from "./pages/FounderBio";
-
+import { Routes, Route, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import WhoShouldLearn from "./components/WhoShouldLearn";
@@ -20,7 +19,7 @@ import WhoShouldLearn from "./components/WhoShouldLearn";
 function App() {
   return (
     <>
-      
+
 
 
       <ProgressBar />
@@ -32,8 +31,9 @@ function App() {
       <About />
 
       <Routes>
-      
         <Route path="/founder-bio" element={<FounderBio />} />
+        <Route path="/digital-marketing-class/" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
       <Courses />
@@ -45,7 +45,7 @@ function App() {
       <Pricing />
 
       <Contact />
-      
+
 
       <Footer />
 
